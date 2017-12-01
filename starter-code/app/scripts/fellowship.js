@@ -76,15 +76,13 @@ function keepItSecretKeepItSafe() {
 var theRing = document.createElement("div");
 theRing.setAttribute("id", "the-ring");
 theRing.setAttribute("class", "magic-imbued-jewelry");
-document.innerHTML = theRing;
-console.log(theRing)
 
-theRing.appendChild("ul");
 
-document.getElementById("the-ring").addEventListener("clicks", nazgulScreech);
-function nazgulScreech() {
-  document.getElementById("nazgul-screech");
-  }
+theRing.addEventListener("clicks", function(){
+  nazgulScreech();
+});
+
+var giveRing = appendChild
 
 
 
